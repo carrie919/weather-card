@@ -1,0 +1,42 @@
+.weather-card{
+    width: 700px;
+    height: 350px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(4, 61, 134);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #16394c;
+    border: 4px solid #608094; 
+}
+
+.today-forecast{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.today-image p{
+    margin: 0;
+}
+
+.today-temparature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.today-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.today-details p{
+    text-align: start;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: .8rem;
+}
